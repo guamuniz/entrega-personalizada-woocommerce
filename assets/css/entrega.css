@@ -1,0 +1,139 @@
+/*--------------------------------------------------------------
+ADMIN - ENTREGA PERSONALIZADA
+--------------------------------------------------------------*/
+
+.ep-admin-wrap h1 .dashicons {
+    margin-right: 8px;
+    color: #7D5331;
+}
+
+.ep-tabs {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ep-tab-content {
+    display: none;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-top: none;
+    padding: 20px;
+}
+
+.ep-tab-content.active {
+    display: block;
+}
+
+.ep-card {
+    background: #fff;
+    border: 1px solid #e2e4e7;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.ep-preview-calculo code {
+    background: #f6f7f7;
+    padding: 8px 12px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+/* Resultado do simulador */
+.ep-test-result {
+    margin-top: 15px;
+}
+
+.ep-result-success {
+    border-left: 4px solid #28a745;
+    background: #d4edda;
+    padding: 12px 15px;
+    border-radius: 4px;
+}
+
+.ep-result-error {
+    border-left: 4px solid #dc3545;
+    background: #f8d7da;
+    padding: 12px 15px;
+    border-radius: 4px;
+}
+
+/*--------------------------------------------------------------
+PUBLIC - ENTREGA PERSONALIZADA
+--------------------------------------------------------------*/
+
+.ep-location-wrapper {
+    margin-bottom: 20px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    background-color: #f6f5f3;
+    border: 1px solid #e0ddd7;
+}
+
+.ep-btn-location {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(135deg, #7D5331 0%, #8C7961 100%);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.ep-btn-location svg {
+    margin-right: 4px;
+}
+
+.ep-btn-location:hover {
+    background: linear-gradient(135deg, #8C7961 0%, #7D5331 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+.ep-location-message {
+    margin-top: 8px;
+    font-size: 13px;
+}
+
+.ep-location-message .ep-success {
+    color: #155724;
+}
+
+.ep-location-message .ep-error {
+    color: #721c24;
+}
+
+.ep-location-message .ep-info {
+    color: #856404;
+}
+
+/* Deixar label do método com distância em menor destaque */
+.woocommerce ul#shipping_method li small {
+    font-size: 11px;
+    color: #7D5331;
+}
+
+input.small-text{
+	        width: auto;
+        max-width: 15em;
+        display: inline;
+        padding: 3px 6px;
+        margin: 0 3px;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+    .ep-location-wrapper {
+        padding: 10px 12px;
+    }
+
+    .ep-btn-location {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
